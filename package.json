@@ -1,16 +1,20 @@
 {
   "name": "speaktodo-vite",
+  "homepage": "https://code-blooded083.github.io/SpeakToDo/",
   "version": "1.0.0",
   "description": "SpeakToDo migrated to Vite with Chrono as a module.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "chrono-node": "^2.7.4"
+    "chrono-node": "^2.7.4",
+    "gh-pages": "^6.3.0"
   },
   "devDependencies": {
     "vite": "^5.0.0"
   }
-} 
+}
