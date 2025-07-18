@@ -1,0 +1,16 @@
+{
+  "name": "speaktodo-vite",
+  "version": "1.0.0",
+  "description": "SpeakToDo migrated to Vite with Chrono as a module.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "chrono-node": "^2.7.4"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
+} 

@@ -457,6 +457,27 @@ body.dark-mode .task-actions button:hover {
     }
 }
 
+.due-date {
+    margin-left: 0.5em;
+    color: #d35400;
+    font-size: 0.95em;
+    font-weight: 500;
+    background: #fffbe6;
+    border-radius: 4px;
+    padding: 0.1em 0.5em;
+}
+body.dark-mode .due-date {
+    color: #ffd699;
+    background: #3a2c13;
+}
+
+.due-date {
+    font-size: 0.92em;
+    color: #888;
+    font-style: italic;
+    margin-left: 0.5em;
+}
+
 @media (max-width: 1200px) {
     .container {
         max-width: 960px;
